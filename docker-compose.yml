@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+    restart: always
+    build: .
+    command: bash -c "cd /angular-first/angular_first/ && npm start"
+    ports:
+      - "8080:8080"
