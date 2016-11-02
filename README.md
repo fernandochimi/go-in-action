@@ -1,5 +1,5 @@
-# Angular First
-First project in Angular. Just thanks :)
+# Go in Action
+Exercises from Book Go in Action :memo:
 
 ## How to execute
 1. First install [Git](https://git-scm.com/downloads), [Docker](https://docs.docker.com/engine/installation/) and [Docker compose](https://docs.docker.com/compose/install/)
