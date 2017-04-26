@@ -25,6 +25,6 @@ func RetrieveFeeds() ([]*Feed, error) {
 	err = json.NewDecoder(file).Decode(&feeds)
 
 	return feeds, err
-
-	defer file.Close()
 }
+
+func (dec *Decoder) Decode(v interface{}) error
