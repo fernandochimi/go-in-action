@@ -1,5 +1,6 @@
 PROJECT_ID := go-in-action
 DCMP = docker-compose
+DCKR = docker
 
 build:
 		${DCMP} build
