@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 	"os"
-	_ "matchers"
-	"search"
+	_ "go-in-action/go/02_search_feeds/matchers"
+	"go-in-action/go/02_search_feeds/search"
 )
 
 func init() {

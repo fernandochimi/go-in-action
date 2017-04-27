@@ -3,9 +3,9 @@ services:
   web:
     restart: always
     build: .
-    command: go run go/03_hello_world/hello.go
     ports:
       - "5000:5000"
     volumes:
-      - .:/go-in-action
-    working_dir: /go-in-action
+      - .:/go-in-action/go/02_search_feeds
+    working_dir: /go-in-action/go/02_search_feeds
+    command: go run main.go
